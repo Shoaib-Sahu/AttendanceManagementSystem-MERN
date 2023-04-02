@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--navColor);
+    color: white;
+    align-items: center;
+    padding: 0 3%;
+}
+
+.logoutBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background-color: rgb(47, 59, 224);
+    border-radius: 0.3rem;
+    transition: all 100ms ease-out;
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.logoutBtn:hover {
+    cursor: pointer;
+    color: rgb(47, 59, 224);
+    background: transparent;
+    border: 2px solid #fff;
+}

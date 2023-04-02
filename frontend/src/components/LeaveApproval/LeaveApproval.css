@@ -1,0 +1,12 @@
+.leaveApproval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.leave-ap {
+    margin: 4rem;
+}

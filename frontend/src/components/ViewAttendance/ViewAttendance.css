@@ -1,0 +1,25 @@
+.studentInfo {
+    margin-top: 3rem;
+}
+
+.btn-back {
+    transform: translate(-33rem, 1rem);
+}
+
+.present {
+    background: var(--navColor);
+    width: 4rem;
+    height: 1rem;
+    color: #fff;
+}
+
+.absent {
+    background-color: rgb(201, 60, 60);
+    width: 4rem;
+    height: 1rem;
+    color: #fff;
+}
+
+.studentInfo>h2 {
+    margin: 2.5rem 0;
+}

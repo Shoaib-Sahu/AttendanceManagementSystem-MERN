@@ -1,0 +1,15 @@
+#reason {
+    margin-top: 1.3rem;
+    align-items: center;
+}
+
+.submitBtn {
+    margin-top: 1.5rem;
+}
+
+.submitBtn:hover {
+    cursor: pointer;
+    color: var(--navColor);
+    background: transparent;
+    border: 2px solid var(--navColor);
+}

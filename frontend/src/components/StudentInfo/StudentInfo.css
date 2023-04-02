@@ -1,0 +1,83 @@
+.studentInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 20px;
+}
+
+.studentInfo>h2 {
+    margin-bottom: 3rem;
+}
+
+.tableInfo {
+    width: 90%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.btn {
+    height: 2.5rem;
+    width: 4rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    margin: 3px;
+    transition: all 100ms ease-out;
+}
+
+.presentBtn {
+    background: var(--navColor);
+}
+
+.absentBtn {
+    background-color: rgb(201, 60, 60);
+}
+
+.presentBtn:hover {
+    cursor: pointer;
+    color: var(--navColor);
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.absentBtn:hover {
+    cursor: pointer;
+    color: rgb(201, 60, 60);
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.p-btn {
+    background: var(--navColor);
+    height: 2.5rem;
+    width: 5rem;
+}
+
+.a-btn {
+    background-color: rgb(201, 60, 60);
+    height: 2.4rem;
+    width: 5rem;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
